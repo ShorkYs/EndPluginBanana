@@ -1,0 +1,14 @@
+name: PortalEventToggle
+version: '1.0.0'
+main: com.endpluginbanana.portaleventtoggle.PortalEventTogglePlugin
+api-version: '1.21'
+author: EndPluginBanana
+commands:
+  toggleportalcreate:
+    description: Toggles blocking of EntityCreatePortalEvent.
+    usage: /toggleportalcreate
+    permission: portaleventtoggle.toggle
+permissions:
+  portaleventtoggle.toggle:
+    description: Allows toggling EntityCreatePortalEvent blocking.
+    default: op
